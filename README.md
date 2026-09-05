@@ -1,12 +1,22 @@
 # IBM HR Analytics – Employee Attrition & Performance
 
+<p align="center">
+  <img src="Screenshot%202026-09-04%20175344.png" width="900">
+</p>
+
+<p align="center">
+  <b>Interactive HR Analytics Dashboard built with Python, SQL & Power BI</b>
+</p>
+
+---
+
 ## 📌 Project Overview
 
 This project analyzes employee attrition and workforce trends using the **IBM HR Analytics Employee Attrition & Performance** dataset.
 
 The objective is to identify the key factors influencing employee attrition and provide meaningful insights that can help HR teams improve employee retention and workforce planning.
 
-The project uses **Python, SQL, and Power BI** for data cleaning, analysis, and visualization.
+The project combines **Python, MySQL, and Power BI** for data cleaning, analysis, visualization, and business intelligence.
 
 ---
 
@@ -21,20 +31,22 @@ The project uses **Python, SQL, and Power BI** for data cleaning, analysis, and 
 * Analyze employee tenure and attrition
 * Study the relationship between stock options and attrition
 * Build an interactive HR Analytics dashboard
+* Generate actionable HR insights and recommendations
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-| Tool                          | Purpose                                              |
-| ----------------------------- | ---------------------------------------------------- |
-| 🐍 Python                     | Data cleaning, transformation & exploratory analysis |
-| 🗄️ MySQL                     | Data analysis using SQL queries                      |
-| 📊 Power BI                   | Interactive dashboard & visualization                |
-| 🐼 Pandas                     | Data manipulation                                    |
-| 📈 Matplotlib                 | Data visualization                                   |
-| 💻 VS Code / Jupyter Notebook | Development environment                              |
-| 🌐 GitHub                     | Project documentation & version control              |
+| Tool                              | Purpose                                              |
+| --------------------------------- | ---------------------------------------------------- |
+| 🐍 **Python**                     | Data cleaning, transformation & exploratory analysis |
+| 🗄️ **MySQL**                     | SQL-based data analysis                              |
+| 📊 **Power BI**                   | Interactive dashboard & visualization                |
+| 🐼 **Pandas**                     | Data manipulation                                    |
+| 🔢 **NumPy**                      | Numerical operations                                 |
+| 📈 **Matplotlib**                 | Data visualization                                   |
+| 💻 **VS Code / Jupyter Notebook** | Development environment                              |
+| 🌐 **GitHub**                     | Version control & documentation                      |
 
 ---
 
@@ -55,6 +67,10 @@ IBM-HR-Analytics-Employee-Attrition
 ├── Data
 │   └── HR_Employee_Attrition_Cleaned.csv
 │
+├── Screenshot 2026-09-04 175344.png
+├── Screenshot 2026-09-04 175436.png
+├── Screenshot 2026-09-04 175545.png
+│
 └── README.md
 ```
 
@@ -62,17 +78,21 @@ IBM-HR-Analytics-Employee-Attrition
 
 ## 🐍 Python Analysis
 
-Python was used for:
+Python was used for data preparation and exploratory analysis.
+
+### Key Activities
 
 * Data cleaning
-* Handling and transforming variables
+* Data transformation
+* Handling categorical variables
 * Creating employee age groups
-* Creating income and tenure groups
+* Creating income groups
+* Creating tenure groups
 * Calculating attrition rates
 * Performing exploratory data analysis
 * Creating analytical visualizations
 
-Libraries used:
+### Libraries
 
 ```text
 Pandas
@@ -84,9 +104,9 @@ Matplotlib
 
 ## 🗄️ SQL Analysis
 
-MySQL was used to analyze employee attrition and identify important HR trends.
+MySQL was used to perform structured analysis and identify important employee attrition trends.
 
-Key analysis areas include:
+### Key Analysis Areas
 
 * Overall attrition rate
 * Attrition by department
@@ -102,7 +122,7 @@ Key analysis areas include:
 
 ## 📊 Power BI Dashboard
 
-An interactive **HR Attrition Dashboard** was created in Power BI to provide a visual overview of employee attrition.
+An interactive **HR Attrition Dashboard** was developed in Power BI to provide a clear visual overview of employee attrition and workforce trends.
 
 ### Dashboard Includes
 
@@ -119,33 +139,37 @@ An interactive **HR Attrition Dashboard** was created in Power BI to provide a v
 * Attrition by Years at Company
 * Attrition by Stock Option Level
 
-### Dashboard Preview
+---
 
-![
-    
-](<Screenshot 2026-09-04 175344-1.png>)    
+## 📸 Dashboard Preview
 
-![
-    
-](<Screenshot 2026-09-04 175436.png>)
+### Overview
 
-![
-    
-](<Screenshot 2026-09-04 175545.png>)
+<p align="center">
+  <img src="Screenshot%202026-09-04%20175344.png" width="900">
+</p>
 
-```text
-Power BI Dashboard Screenshot
-```
+### Detailed Analysis
+
+<p align="center">
+  <img src="Screenshot%202026-09-04%20175436.png" width="900">
+</p>
+
+### HR Insights
+
+<p align="center">
+  <img src="Screenshot%202026-09-04%20175545.png" width="900">
+</p>
 
 ---
 
 ## 🔍 Key Insights
 
-Some important findings from the analysis:
+The analysis revealed several important employee attrition patterns:
 
 * Employees working **overtime** show considerably higher attrition.
 * **Sales Representatives** have one of the highest attrition rates among job roles.
-* Younger employees, particularly the **18–25 age group**, show relatively higher attrition.
+* The **18–25 age group** shows relatively higher attrition.
 * Employees with **lower monthly income** tend to have higher attrition.
 * Employees in their **first 2 years at the company** have comparatively higher attrition.
 * Employees who **travel frequently** show higher attrition than employees who rarely travel.
@@ -159,25 +183,52 @@ Some important findings from the analysis:
 Based on the analysis, HR teams could consider:
 
 1. Reviewing workload and overtime policies.
-2. Improving retention strategies for early-career employees.
+2. Improving onboarding and retention strategies for new employees.
 3. Reviewing compensation for lower-income employee groups.
 4. Developing targeted retention programs for high-attrition job roles.
 5. Improving support for frequently traveling employees.
-6. Introducing stronger employee engagement and career-development programs.
+6. Providing stronger career-development opportunities.
+7. Increasing employee engagement and recognition programs.
+
+---
+
+## 🔄 Project Workflow
+
+```text
+Raw HR Dataset
+      ↓
+Data Cleaning & Transformation
+      ↓
+Python Exploratory Analysis
+      ↓
+SQL-Based Analysis
+      ↓
+Power BI Data Modeling
+      ↓
+DAX Measures & Calculations
+      ↓
+Interactive Dashboard
+      ↓
+Business Insights & Recommendations
+```
 
 ---
 
 ## 📈 Skills Demonstrated
 
-This project demonstrates practical experience in:
-
 * Data Cleaning
 * Exploratory Data Analysis
-* Data Visualization
-* SQL Analysis
+* Data Transformation
+* SQL
+* Python
+* Pandas
+* NumPy
+* Matplotlib
 * DAX
-* Power BI Dashboard Development
+* Power BI
+* Data Visualization
 * HR Analytics
+* Business Intelligence
 * Business Insights
 * Data Storytelling
 * Git & GitHub
@@ -192,4 +243,4 @@ MBA Student | Aspiring Data Analyst
 
 ---
 
-⭐ If you found this project useful, feel free to explore the analysis and dashboard files.
+⭐ **If you found this project useful, feel free to explore the Python analysis, SQL queries, cleaned dataset, and Power BI dashboard.**
