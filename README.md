@@ -121,7 +121,17 @@ An interactive **HR Attrition Dashboard** was created in Power BI to provide a v
 
 ### Dashboard Preview
 
-> Add your Power BI dashboard screenshot here.
+![
+    
+](<Screenshot 2026-09-04 175344-1.png>)    
+
+![
+    
+](<Screenshot 2026-09-04 175436.png>)
+
+![
+    
+](<Screenshot 2026-09-04 175545.png>)
 
 ```text
 Power BI Dashboard Screenshot
